@@ -1,75 +1,695 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <title>Travel Agency</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <header class="header">
-        <nav class="navbar">
-            <div>
-                <img src="/assets//Phnes. Travels.png" alt="logo">
-            </div>
-            <div>
-                <ul class="menulist">
-                    <li>Home</li>
-                    <li>Flights</li>
-                    <li>Hotels</li>
-                    <li>Discover</li>
-                    <li>About Us</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div>
-                <button class="btn">Login</button>
-                <button class="btn1">Sign up</button>
-            </div>
-        </nav>
-        <div class="header-content">
-            <div class="heading">
-                <h1 class="header-heading">Don’t call it a dream. Call it a plan</h1>
-                <p class="header-sub-heading">Travel the way you wish to go with Phnes Travels helping you discover, live and travel at your own pace.</p>
-            </div>
-            <div class="trip-deatils">
-                <input type="text" placeholder="From" class="input">
-                <input type="text" placeholder="To" class="input">
-                <input type="text" placeholder="Date of stay" class="input">
-                <input type="text" placeholder="Traveler - Class" class="input">
-                <button class="btn2">Find trip now</button>
-            </div>
+      <nav class="navbar">
+        <div>
+          <img src="/assets//Phnes. Travels.png" alt="logo" />
         </div>
+        <div>
+          <ul class="menulist">
+            <li>Home</li>
+            <li>Flights</li>
+            <li>Hotels</li>
+            <li>Discover</li>
+            <li>About Us</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="nav-btns">
+          <button class="btn">Login</button>
+          <button class="btn1">Sign up</button>
+        </div>
+      </nav>
+      <div class="header-content">
+        <div class="heading">
+          <h1 class="header-heading">Don’t call it a dream. Call it a plan</h1>
+          <p class="header-sub-heading">
+            Travel the way you wish to go with Phnes Travels helping you
+            discover, live and travel at your own pace.
+          </p>
+        </div>
+        <div class="trip-deatils">
+            <div class="input1">
+                <label for=""><span class="fa-stack fa-lg">
+                    <i class="fa fa-map fa-stack-1x"></i>
+                  </span></label>
+              <input type="text" placeholder="From" class="input" />
+            </div>
+            <div class="input2">
+                <label for=""><span class="fa-stack fa-lg">
+                    <i class="fa fa-send fa-stack-1x"></i>
+                  </span></label>
+              <input type="text" placeholder="To" class="input" />
+            </div>
+            <div class="input3">
+                <label for=""><span class="fa-stack fa-lg">
+                    <i class="fa fa-calendar fa-stack-1x"></i>
+                  </span></label>
+              <input type="text" placeholder="Date of stay" class="input" />
+            </div>
+            <div class="input4">
+                <label for=""><span class="fa-stack fa-lg">
+                    <i class="fa fa-user fa-stack-1x"></i>
+                  </span></label>
+              <input type="text" placeholder="Traveler - Class" class="input" />
+            </div>
+          <button class="btn2">Find trip now<span class="">
+            <i class="fa fa-search "> </i>
+          </span></button>
+        </div>
+      </div>
     </header>
     <section class="sec-1">
-        <div class="sec-1-left-side">
-            <div class="img1"><img src="/assets/sec-1-img-3.png" alt="img" width="274px" height="448px"></div>
-            <div class="img2"><img src="/assets/sec-1-img-3.png" alt="img" width="200px" height="332px"></div>
-            <div class="img3"><img src="/assets/sec-1-img-3.png" alt="img" width="180px" height="311px"></div>
+      <div class="sec-1-left-side">
+        <div class="img1">
+          <img
+            src="/assets/sec-1-img-3.png"
+            alt="img"
+            width="274px"
+            height="448px"
+          />
         </div>
-        <div class="sec-1-right-side">
-            <p class="sec1-sub-heading">About</p>
-            <h1 class="sec1-heading">Plan your perfect trip</h1>
-            <p class="sec1-desc">Are you looking for an adventurous travel, or just carrying your work alongside you while you travel and explore new places, then your perfect trip is one with us, Phnes travels help you search flights & places, book your most convenient hotels/places at your comfort while we help you discover the world. Welcome to a new dispensation.</p>
-            <div class="num-cards">
-                <div class="card">
-                    <h1>150+</h1>
-                    <p>Flight Destinations</p>
-                </div>
-                <div class="card">
-                    <h1>150+</h1>
-                    <p>Flight Destinations</p>
-                </div>
-                <div class="card">
-                    <h1>150+</h1>
-                    <p>Flight Destinations</p>
-                </div>
-                <div class="card">
-                    <h1>150+</h1>
-                    <p>Flight Destinations</p>
-                </div>
-            </div>
+        <div class="img2">
+          <img
+            src="/assets/sec-1-img-3.png"
+            alt="img"
+            width="200px"
+            height="332px"
+          />
         </div>
+        <div class="img3">
+          <img
+            src="/assets/sec-1-img-3.png"
+            alt="img"
+            width="180px"
+            height="311px"
+          />
+        </div>
+      </div>
+      <div class="sec-1-right-side">
+        <p class="sec1-sub-heading">About</p>
+        <h1 class="sec1-heading">Plan your perfect trip</h1>
+        <p class="sec1-desc">
+          Are you looking for an adventurous travel, or just carrying your work
+          alongside you while you travel and explore new places, then your
+          perfect trip is one with us, Phnes travels help you search flights &
+          places, book your most convenient hotels/places at your comfort while
+          we help you discover the world. Welcome to a new dispensation.
+        </p>
+        <div class="num-cards">
+          <div class="card1">
+            <h1>150+</h1>
+            <p>Flight Destinations</p>
+          </div>
+          <div class="card1">
+            <h1>150+</h1>
+            <p>Flight Destinations</p>
+          </div>
+          <div class="card1">
+            <h1>150+</h1>
+            <p>Flight Destinations</p>
+          </div>
+          <div class="card1">
+            <h1>150+</h1>
+            <p>Flight Destinations</p>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
+    <section class="sec2">
+      <div class="sec2-header">
+        <div>
+          <p class="sec1-sub-heading">Top Destinations</p>
+          <h1 class="sec1-heading">Discover your love</h1>
+        </div>
+        <button class="btn1 see-all-btn">See all</button>
+      </div>
+      <div class="sec2-body">
+        <div class="card">
+          <div><img src="./assets/sec2-img.png" alt="" /></div>
+          <div class="card-desc">
+            <div>
+              <h1 class="location-name">Phuket</h1>
+              <p class="country-name"><span class="fa-stack fa-lg">
+                <i class="fa fa-map fa-stack-1x"></i>
+              </span>Thailand</p>
+            </div>
+            <div class="users">
+              <img src="./assets/user1.png" alt="" class="user" />
+              <img src="./assets/user1.png" alt="" class="user" />
+              <div class="more-users">+10</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div><img src="./assets/sec2-img.png" alt="" /></div>
+          <div class="card-desc">
+            <div>
+              <h1 class="location-name">Phuket</h1>
+              <p class="country-name"><span class="fa-stack fa-lg">
+                <i class="fa fa-map fa-stack-1x"></i>
+              </span>Thailand</p>
+            </div>
+            <div class="users">
+              <img src="./assets/user1.png" alt="" class="user" />
+              <img src="./assets/user1.png" alt="" class="user" />
+              <div class="more-users">+10</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div><img src="./assets/sec2-img.png" alt="" /></div>
+          <div class="card-desc">
+            <div>
+              <h1 class="location-name">Phuket</h1>
+              <p class="country-name"><span class="fa-stack fa-lg">
+                <i class="fa fa-map fa-stack-1x"></i>
+              </span>Thailand</p>
+            </div>
+            <div class="users">
+              <img src="./assets/user1.png" alt="" class="user" />
+              <img src="./assets/user1.png" alt="" class="user" />
+              <div class="more-users">+10</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec3">
+      <div class="card-sec3">
+        <h1 class="card-heading">Flights</h1>
+        <p class="card-desc">
+          Search flights & places and book for your amazing trips.
+        </p>
+        <button class="btn1"><span class="fa-stack fa-lg">
+            <i class="fa fa-send fa-stack-1x"></i>
+          </span>Show flights</button>
+      </div>
+      <div class="card-sec3">
+        <h1 class="card-heading">Flights</h1>
+        <p class="card-desc">
+          Search flights & places and book for your amazing trips.
+        </p>
+        <button class="btn1"><span class="fa-stack fa-lg">
+            <i class="fa fa-send fa-stack-1x"></i>
+          </span>Show flights</button>
+      </div>
+    </section>
+    <section class="sec4">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div>
+                <p class="sec4-sub-heading">Testimonials</p>
+                <h1 class="sec4-heading">What they say about us</h1>
+              </div>
+              <div class="stars">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+              </div>
+              <div>
+                <p class="sec4-desc">
+                  “A real sense of community, nurtured” Really appreciate the
+                  help and support from the staff during my trips. Very helpful
+                  and always available when needed.
+                </p>
+              </div>
+              <h1 class="sec4-person-name">Alice Smith</h1>
+              <div class="sec4-m-users">
+                <img
+                  src="./assets/user7.png"
+                  alt=""
+                  width="141px"
+                  height="141px"
+                />
+                <img
+                  src="./assets/user3.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user4.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user5.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user6.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div>
+                <p class="sec4-sub-heading">Testimonials</p>
+                <h1 class="sec4-heading">What they say about us</h1>
+              </div>
+              <div class="stars">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+              </div>
+              <div>
+                <p class="sec4-desc">
+                  “A real sense of community, nurtured” Really appreciate the
+                  help and support from the staff during my trips. Very helpful
+                  and always available when needed.
+                </p>
+              </div>
+              <h1 class="sec4-person-name">Alice Smith</h1>
+              <div class="sec4-m-users">
+                <img
+                  src="./assets/user7.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user3.png"
+                  alt=""
+                  width="141px"
+                  height="141px"
+                />
+                <img
+                  src="./assets/user4.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user5.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user6.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div>
+                <p class="sec4-sub-heading">Testimonials</p>
+                <h1 class="sec4-heading">What they say about us</h1>
+              </div>
+              <div class="stars">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+              </div>
+              <div>
+                <p class="sec4-desc">
+                  “A real sense of community, nurtured” Really appreciate the
+                  help and support from the staff during my trips. Very helpful
+                  and always available when needed.
+                </p>
+              </div>
+              <h1 class="sec4-person-name">Alice Smith</h1>
+              <div class="sec4-m-users">
+                <img
+                  src="./assets/user7.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user3.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user4.png"
+                  alt=""
+                  width="141px"
+                  height="141px"
+                />
+                <img
+                  src="./assets/user5.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user6.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div>
+                <p class="sec4-sub-heading">Testimonials</p>
+                <h1 class="sec4-heading">What they say about us</h1>
+              </div>
+              <div class="stars">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+              </div>
+              <div>
+                <p class="sec4-desc">
+                  “A real sense of community, nurtured” Really appreciate the
+                  help and support from the staff during my trips. Very helpful
+                  and always available when needed.
+                </p>
+              </div>
+              <h1 class="sec4-person-name">Alice Smith</h1>
+              <div class="sec4-m-users">
+                <img
+                  src="./assets/user7.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user3.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user4.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user5.png"
+                  alt=""
+                  width="141px"
+                  height="141px"
+                />
+                <img
+                  src="./assets/user6.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div>
+                <p class="sec4-sub-heading">Testimonials</p>
+                <h1 class="sec4-heading">What they say about us</h1>
+              </div>
+              <div class="stars">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+              </div>
+              <div>
+                <p class="sec4-desc">
+                  “A real sense of community, nurtured” Really appreciate the
+                  help and support from the staff during my trips. Very helpful
+                  and always available when needed.
+                </p>
+              </div>
+              <h1 class="sec4-person-name">Alice Smith</h1>
+              <div class="sec4-m-users">
+                <img
+                  src="./assets/user7.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user3.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user4.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user5.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user6.png"
+                  alt=""
+                  width="141px"
+                  height="141px"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div>
+                <p class="sec4-sub-heading">Testimonials</p>
+                <h1 class="sec4-heading">What they say about us</h1>
+              </div>
+              <div class="stars">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-star fa-stack-1x"></i>
+                </span>
+              </div>
+              <div>
+                <p class="sec4-desc">
+                  “A real sense of community, nurtured” Really appreciate the
+                  help and support from the staff during my trips. Very helpful
+                  and always available when needed.
+                </p>
+              </div>
+              <h1 class="sec4-person-name">Alice Smith</h1>
+              <div class="sec4-m-users">
+                <img
+                  src="./assets/user7.png"
+                  alt=""
+                  width="141px"
+                  height="141px"
+                />
+                <img
+                  src="./assets/user3.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user4.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user5.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+                <img
+                  src="./assets/user6.png"
+                  alt=""
+                  width="100px"
+                  height="100px"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Add more slides as needed -->
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <img
+          src="./assets/Phnes. Travels.png"
+          alt="Logo"
+          width="253px"
+          height="97px"
+        />
+        <div class="icon">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-facebook fa-stack-1x"></i>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-twitter fa-stack-1x"></i>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-youtube fa-stack-1x"></i>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-instagram fa-stack-1x"></i>
+          </span>
+        </div>
+      </div>
+      <div class="footer-right-side">
+        <div class="links">
+          <h1>Links</h1>
+          <ul>
+            <li>Flights</li>
+            <li>Stays</li>
+            <li>Discover</li>
+            <li>About Us</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="links">
+          <h1>Our Activities</h1>
+          <ul>
+            <li>Tour</li>
+            <li>Kayaking</li>
+            <li>Cruising & Sailing</li>
+            <li>Multi-activities</li>
+          </ul>
+        </div>
+        <div class="links">
+          <h1>About Us</h1>
+          <ul>
+            <li>Our Story</li>
+            <li>Work with us</li>
+          </ul>
+        </div>
+        <div class="links">
+          <h1>Contact</h1>
+          <ul>
+            <li>Address: Pe.Holandia No.205A</li>
+            <li>Millennium City, PH17</li>
+            <li>Phone: 023 456 7890</li>
+            <li>Email: phnes.travels@gmail.com</li>
+            <li>Maps: Millennium City, Accra</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var swiper = new Swiper(".swiper-container", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      });
+    </script>
+  </body>
 </html>
