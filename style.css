@@ -562,6 +562,7 @@
   }
   .heading {
     padding: 20px 20px;
+    text-align: center;
   }
 
   .header-heading {
@@ -760,41 +761,15 @@
     gap: 40px;
   }
   
-  .links {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
   
-  .links > h1 {
-    color: #fff;
-    font-size: 20px;
-    font-family: Montserrat Alternates;
-    font-weight: 600;
-  }
-  
-  .links > ul {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
-  
-  .links > ul > li {
-    color: #fff;
-    font-size: 16px;
-    font-family: Karla;
-    font-weight: 500;
-    list-style: none;
-    opacity: 0.699999988079071;
-  }
   
   .icon {
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .sec4 {
     overflow-x: hidden;
-    margin: 100px 0px;
+    margin: 40px 0px;
   }
   
   .swiper-container {
@@ -802,15 +777,11 @@
   }
   
   .swiper-button-prev {
-    margin-left: 300px;
-    color: #fff;
-    position: absolute;
+    margin: 20px;
   }
   
   .swiper-button-next {
-    margin-right: 300px;
-    color: #fff;
-    position: absolute;
+    margin: 20px;
   }
   
   .swiper-pagination {
@@ -818,51 +789,24 @@
   }
   
   .swiper-slide {
-    text-align: center;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("./assets/sec4-img.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 50px 0px;
+    font-size: 15px;
+    padding: 30px 0px;
   }
   
   .slide-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 60px;
+    gap: 30px;
   }
   
   .sec4-sub-heading {
-    color: #fff;
-    text-align: center;
-    font-size: 16px;
-    font-family: "Karla";
-    font-weight: 700;
-    line-height: 150%;
+    font-size: 10px;
   }
   
   .sec4-heading {
-    color: #fff;
-    text-align: center;
-    font-size: 32px;
-    font-family: "Montserrat Alternates";
-    font-weight: 700;
-    line-height: 125%;
-    letter-spacing: 0.16px;
+    font-size: 20px;
   }
   
   .stars {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    color: rgba(254, 148, 10, 1);
-    justify-content: center;
-    align-items: center;
+    gap: 12px;
   }
   
   .stars > span {
@@ -872,30 +816,21 @@
   }
   
   .sec4-desc {
-    color: var(--neutrals, #fff);
-    text-align: center;
-    font-size: 16px;
-    font-family: Karla;
-    line-height: 150%;
-    letter-spacing: 0.08px;
-    margin: 0px 32%;
+    font-size: 15px;
+    margin: 0px 20%;
   }
   
   .sec4-person-name {
-    color: var(--neutrals, #fff);
-    text-align: center;
-    font-size: 30px;
-    font-family: Karla;
-    font-weight: 700;
-    line-height: 125%;
+    font-size: 20px;
   }
   
   .sec4-m-users {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+    gap: 10px;
+    padding: 30px 10px;
+  }
+  .sec4-m-users > img{
+    width: 15%;
+    height: 15%;
   }
   
 }
