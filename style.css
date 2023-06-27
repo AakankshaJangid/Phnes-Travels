@@ -19,6 +19,10 @@
   flex-direction: row;
   gap: 54px;
   list-style: none;
+}
+
+.menulist > li > a{
+  text-decoration: none;
   color: white;
   font-size: 16px;
   line-height: 19px;
@@ -29,7 +33,7 @@
 
 .header {
   position: relative;
-  background-image: url("./assets/bg-header.png");
+  background-image: url("./resources/assets/bg-header.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -358,7 +362,7 @@
 }
 
 .card-sec3 {
-  background-image: url("./assets/sec3-img.png");
+  background-image: url("./resources/assets/sec3-img.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -467,7 +471,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./assets/sec4-img.png");
+  background-image: url("./resources/assets/sec4-img.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
