@@ -1,0 +1,934 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.menulist {
+  display: flex;
+  flex-direction: row;
+  gap: 54px;
+  list-style: none;
+}
+
+.menulist > li > a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Karla", sans-serif;
+}
+
+.user-name {
+  color: #051721;
+  font-size: 16px;
+  font-family: "Karla";
+  font-weight: 500;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-profile > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 10px;
+}
+
+.fav {
+  color: #051721;
+  font-size: 16px;
+  font-family: "Karla";
+  font-weight: 500;
+  letter-spacing: 0.08px;
+}
+
+.header-sec {
+  background-image: url("../assets/about-us-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  height: 80vh;
+  justify-content: space-evenly;
+  align-items: start;
+  padding: 40px;
+}
+
+.header-sec > h1 {
+  color: #fcfcfc;
+  font-size: 45px;
+  font-family: "Montserrat Alternates";
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0.225px;
+}
+
+/* Section1 */
+
+/* Footer */
+
+.footer {
+  background-color: #276968;
+  color: #fafbfc;
+  padding: 90px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-right-side {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.links > h1 {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Montserrat Alternates";
+  font-weight: 600;
+}
+
+.links > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.links > ul > li {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Karla";
+  font-weight: 500;
+  list-style: none;
+  opacity: 0.699999988079071;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+/* Mobile view */
+
+@media screen and (min-width: 360px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .menulist {
+    display: none;
+  }
+
+  .logo > img {
+    width: 60px;
+    height: 20px;
+  }
+
+  .user-name,
+  .fav {
+    font-size: 10px;
+  }
+
+  .user-profile {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .user-profile > div {
+    gap: 6px;
+    padding: 6px 6px;
+  }
+
+  .user-profile > div > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* .user-name > div > span > i {
+        font-size: 4px;
+      } */
+
+  .header-sec {
+    padding: 20px;
+    height: 20vh;
+  }
+
+  .header-sec > h1 {
+    font-size: 25px;
+  }
+
+  /* Section1 */
+
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 20px;
+  }
+
+  .sec1-lhs {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+  }
+
+  .south-islands,
+  .geo-features {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+  }
+
+  .south-islands > h1,
+  .geo-features > .heading-desc > h1 {
+    color: #051721;
+    font-size: 32px;
+    font-family: "Karla";
+    font-weight: 700;
+    line-height: 125%;
+    text-transform: capitalize;
+  }
+
+  .south-islands > p,
+  .geo-features > p {
+    color: #051721;
+    font-size: 16px;
+    font-family: "Karla";
+    line-height: 150%;
+    letter-spacing: 0.08px;
+  }
+
+  .geo-features > .heading-desc > p {
+    color: rgba(5, 23, 33, 0.6);
+    font-size: 16px;
+    font-family: "Karla";
+    line-height: 150%;
+  }
+
+  .geo-features-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .geo-features-imgs > img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .sec1-rhs {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .other-destinations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .other-destinations > h1 {
+    color: #051721;
+    font-size: 20px;
+    font-family: "Karla";
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: 0.1px;
+  }
+
+  .other-destinations > button,
+  .btn1 {
+    color: #276968;
+    font-size: 16px;
+    font-family: "Karla";
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    border: 2px solid #276968;
+    padding: 4px 10px;
+    border-radius: 5px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .card {
+    background-image: url("../assets/destination1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: start;
+    align-items: baseline;
+    padding: 60px 10px 10px 10px;
+    border-radius: 5px;
+  }
+
+  .card-desc > h1 {
+    color: var(--neutrals, #fff);
+    font-size: 24px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .card-desc > p {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Karla";
+    line-height: 150%;
+  }
+
+  .btn1 {
+    padding: 8px 16px;
+  }
+  /* Footer */
+
+  .footer {
+    background-color: #276968;
+    color: #fafbfc;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .footer-right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .links > h1 {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .links > ul {
+    gap: 10px;
+  }
+
+  .links > ul > li {
+    font-size: 14px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .footer-logo {
+    width: 250px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .menulist {
+    display: none;
+  }
+
+  .logo > img {
+    width: 60px;
+    height: 20px;
+  }
+
+  .user-name,
+  .fav {
+    font-size: 10px;
+  }
+
+  .user-profile {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .user-profile > div {
+    gap: 6px;
+    padding: 6px 6px;
+  }
+
+  .user-profile > div > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* .user-name > div > span > i {
+            font-size: 4px;
+          } */
+
+  .header-sec {
+    padding: 20px;
+    height: 20vh;
+  }
+
+  .header-sec > h1 {
+    font-size: 25px;
+  }
+
+  /* Section1 */
+
+  /* Footer */
+
+  .footer {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .footer-right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .links > h1 {
+    font-size: 16px;
+  }
+
+  .links > ul {
+    gap: 10px;
+  }
+
+  .links > ul > li {
+    font-size: 14px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .footer-logo {
+    width: 250px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .menulist {
+    display: none;
+  }
+
+  .logo > img {
+    width: 130px;
+    height: 50px;
+  }
+
+  .user-name,
+  .fav {
+    font-size: 14px;
+  }
+
+  .user-profile > div {
+    gap: 12px;
+    padding: 6px 6px;
+  }
+
+  .user-profile > div > img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* .user-name > div > span > i {
+            font-size: 4px;
+          } */
+
+  .header-sec {
+    padding: 40px;
+    height: 20vh;
+  }
+
+  .header-sec > h1 {
+    font-size: 35px;
+  }
+
+  /* Section1 */
+
+  .section1 {
+    padding: 30px 30px;
+  }
+
+
+
+  .geo-features-imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  
+
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .btn1 {
+    padding: 8px 16px;
+  }
+
+  /* Footer */
+
+  .footer {
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .footer-right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .links > h1 {
+    font-size: 20px;
+  }
+
+  .links > ul {
+    gap: 10px;
+  }
+
+  .links > ul > li {
+    font-size: 16px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .footer-logo {
+    width: 250px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .menulist {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+  }
+
+  .menulist > li > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+  }
+
+  .user-name {
+    color: #051721;
+    font-size: 14px;
+    font-family: "Karla";
+    font-weight: 500;
+  }
+
+  .user-profile {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .user-profile > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+  }
+
+  .fav {
+    color: #051721;
+    font-size: 14px;
+    font-family: "Karla";
+    font-weight: 500;
+    letter-spacing: 0.08px;
+  }
+
+  .header-sec {
+    background-image: url("../assets/about-us-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 40px;
+  }
+
+  .header-sec > h1 {
+    color: #fcfcfc;
+    font-size: 45px;
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0.225px;
+  }
+
+  /* Section1 */
+
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px 30px;
+  }
+
+  .south-island-img{
+    width: 500px;
+    height: 200px;
+  }
+
+
+  .geo-features-imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .geo-features-imgs > img {
+    width: 250px;
+    height: 150px;
+  }
+
+  .map-img{
+    width: 400px;
+    height: 400px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .btn1 {
+    padding: 12px 20px;
+  }
+
+
+  /* Footer */
+
+  .footer {
+    background-color: #276968;
+    color: #fafbfc;
+    padding: 90px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+  }
+
+  .footer-right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .links > h1 {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .links > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .links > ul > li {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Karla";
+    font-weight: 500;
+    list-style: none;
+    opacity: 0.699999988079071;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+
+  .menulist {
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+    list-style: none;
+  }
+
+  .menulist > li > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+  }
+
+  .user-name {
+    color: #051721;
+    font-size: 16px;
+    font-family: "Karla";
+    font-weight: 500;
+  }
+
+  .user-profile {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .user-profile > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 10px;
+  }
+
+  .user-profile > div > img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .fav {
+    color: #051721;
+    font-size: 16px;
+    font-family: "Karla";
+    font-weight: 500;
+    letter-spacing: 0.08px;
+  }
+
+  .header-sec {
+    background-image: url("../assets/about-us-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 40px;
+  }
+
+  .header-sec > h1 {
+    color: #fcfcfc;
+    font-size: 45px;
+    font-family: "Montserrat Alternates";
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0.225px;
+  }
+
+  /* Section1 */
+  .section1 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 50px 50px;
+  }
+
+  .south-island-img{
+    width: 100%;
+    height: 300px;
+  }
+
+
+  .geo-features-imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .geo-features-imgs > img {
+    width: 50%;
+    height: 300px;
+  }
+
+  .map-img{
+    width: 500px;
+    height: 500px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .btn1 {
+    padding: 8px 16px;
+  }
+
+  /* Footer */
+
+  .footer {
+    background-color: #276968;
+    color: #fafbfc;
+    padding: 90px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+  }
+
+  .footer-right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .links > h1 {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .links > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .links > ul > li {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Karla";
+    font-weight: 500;
+    list-style: none;
+    opacity: 0.699999988079071;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+}

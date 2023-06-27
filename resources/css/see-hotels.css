@@ -357,7 +357,7 @@
 .footer-right-side {
   display: flex;
   flex-direction: row;
-  gap: 200px;
+  gap: 100px;
 }
 
 .links {
