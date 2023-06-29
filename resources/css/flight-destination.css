@@ -21,7 +21,7 @@
   list-style: none;
 }
 
-.menulist > li > a{
+.menulist > li > a {
   text-decoration: none;
   color: #000;
   font-size: 16px;
@@ -291,7 +291,7 @@
   width: 50%;
 }
 
-.sec3-lhs-content{
+.sec3-lhs-content {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -390,4 +390,1615 @@
 
 .icon {
   font-size: 20px;
+}
+
+@media screen and (min-width: 360px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .menulist {
+    display: none;
+  }
+
+  .logo > img {
+    width: 60px;
+    height: 20px;
+  }
+
+  .user-name,
+  .fav {
+    font-size: 10px;
+  }
+
+  .user-profile {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .user-profile > div {
+    gap: 6px;
+    padding: 6px 6px;
+  }
+
+  .user-profile > div > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* .user-name > div > span > i {
+        font-size: 4px;
+      } */
+
+  /* Header Section */
+  .header-sec {
+    background-image: url("../assets/see-flights-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10%;
+  }
+
+  .heading {
+    color: white;
+    font-size: 25px;
+    line-height: 125%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+
+  .sub-heading {
+    color: white;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+    margin: 0px 10%;
+    text-align: center;
+  }
+
+  .trip-deatils {
+    color: #276968;
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: 500;
+    font-style: normal;
+    padding: 14px;
+    background-color: white;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+  }
+
+  .input1,
+  .input2,
+  .input3,
+  .input4 {
+    border-left: 2px solid #276968;
+  }
+
+  .input {
+    border-style: none;
+    outline: none;
+    font-family: "Karla", sans-serif;
+    color: #276968;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    font-style: normal;
+    padding: 8px;
+  }
+
+  .btn2 {
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 14px;
+    background-color: #276968;
+    border-radius: 4px;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  /* Section 2 */
+
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 20px;
+  }
+
+  .sec2-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .see-all-btn {
+    margin: 10px 0px;
+  }
+
+  .sec2-sub-heading {
+    color: #276968;
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+    padding-bottom: 5px;
+  }
+
+  .sec2-heading {
+    color: #051721;
+    font-size: 22px;
+    line-height: 125%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+
+  .btn1 {
+    color: #276968;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 8px 14px;
+    background-color: white;
+    border-radius: 4px;
+    font-family: "Karla", sans-serif;
+    border: 2px solid #276968;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .sec2-card {
+    background-image: url("../assets/paris.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: end;
+    padding: 16px;
+    border-radius: 15px;
+  }
+
+  .sec2-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+  }
+
+  .place-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .place-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .place-name {
+    color: var(--neutrals, #fff);
+    font-size: 18px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .place-desc {
+    color: var(--neutrals, #fff);
+    font-size: 12px;
+    font-family: "Karla";
+    line-height: 150%;
+  }
+
+  .place-price {
+    color: var(--neutrals, #fff);
+    font-size: 18px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .book-flight-btn {
+    width: 100%;
+  }
+
+  /* Section 3 */
+  .sec3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 20px;
+  }
+  .sec3-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .sec3-eft-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 18px;
+    border-radius: 30px;
+    background: #276968;
+    width: 90%;
+  }
+
+  .sec3-lhs-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sec3-lhs-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .lhs-heading {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .price-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .price-btn > span {
+    color: #276968;
+    font-size: 12px;
+    font-family: "Montserrat Alternates";
+  }
+
+  .lhs-desc {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+    font-family: "Karla";
+    line-height: 150%;
+    letter-spacing: 0.07px;
+  }
+
+  .sec3-right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 14px;
+  }
+
+  .sec3-right-side > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+
+  /* Footer */
+
+  .footer {
+    background-color: #276968;
+    color: #fafbfc;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .footer-right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .links > h1 {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .links > ul {
+    gap: 10px;
+  }
+
+  .links > ul > li {
+    font-size: 14px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .footer-logo {
+    width: 250px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .menulist {
+    display: none;
+  }
+
+  .logo > img {
+    width: 60px;
+    height: 20px;
+  }
+
+  .user-name,
+  .fav {
+    font-size: 10px;
+  }
+
+  .user-profile {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .user-profile > div {
+    gap: 6px;
+    padding: 6px 6px;
+  }
+
+  .user-profile > div > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  
+
+  /* Footer */
+
+  .footer {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .footer-right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .links > h1 {
+    font-size: 16px;
+  }
+
+  .links > ul {
+    gap: 10px;
+  }
+
+  .links > ul > li {
+    font-size: 14px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .footer-logo {
+    width: 250px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .menulist {
+    display: none;
+  }
+
+  .logo > img {
+    width: 130px;
+    height: 50px;
+  }
+
+  .user-name,
+  .fav {
+    font-size: 14px;
+  }
+
+  .user-profile > div {
+    gap: 12px;
+    padding: 6px 6px;
+  }
+
+  .user-profile > div > img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* Header Section */
+  .header-sec {
+    background-image: url("../assets/see-flights-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10%;
+  }
+
+  .heading {
+    color: white;
+    font-size: 35px;
+    line-height: 125%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+
+  .sub-heading {
+    color: white;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+    margin: 0px 10%;
+    text-align: center;
+  }
+
+  .trip-deatils {
+    color: #276968;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 500;
+    font-style: normal;
+    padding: 14px;
+    background-color: white;
+    font-family: "Karla", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 4px;
+  }
+
+  .input1,
+  .input2,
+  .input3,
+  .input4 {
+    border-left: 2px solid #276968;
+  }
+
+  .input {
+    border-style: none;
+    outline: none;
+    font-family: "Karla", sans-serif;
+    color: #276968;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 500;
+    font-style: normal;
+    padding: 8px;
+  }
+
+  .btn2 {
+    color: white;
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 14px;
+    background-color: #276968;
+    border-radius: 4px;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  /* Section 2 */
+
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 20px;
+  }
+
+  .sec2-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .see-all-btn {
+    margin: 10px 0px;
+  }
+
+  .sec2-sub-heading {
+    color: #276968;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+    padding-bottom: 5px;
+  }
+
+  .sec2-heading {
+    color: #051721;
+    font-size: 26px;
+    line-height: 125%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+
+  .btn1 {
+    color: #276968;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 8px 14px;
+    background-color: white;
+    border-radius: 4px;
+    font-family: "Karla", sans-serif;
+    border: 2px solid #276968;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .sec2-card {
+    background-image: url("../assets/paris.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: end;
+    padding: 16px;
+    border-radius: 15px;
+  }
+
+  .sec2-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+  }
+
+  .place-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .place-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .place-name {
+    color: var(--neutrals, #fff);
+    font-size: 20px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .place-desc {
+    color: var(--neutrals, #fff);
+    font-size: 12px;
+    font-family: "Karla";
+    line-height: 150%;
+  }
+
+  .place-price {
+    color: var(--neutrals, #fff);
+    font-size: 20px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .book-flight-btn {
+    width: 100%;
+  }
+
+  /* Section 3 */
+  .sec3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 50px 20px;
+  }
+  .sec3-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .sec3-eft-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    background: #276968;
+    width: 90%;
+  }
+
+  .sec3-lhs-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sec3-lhs-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .lhs-heading {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .price-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .price-btn > span {
+    color: #276968;
+    font-size: 14px;
+    font-family: "Montserrat Alternates";
+  }
+
+  .lhs-desc {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    font-family: "Karla";
+    line-height: 150%;
+    letter-spacing: 0.07px;
+  }
+
+  .sec3-right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 14px;
+  }
+
+  .sec3-right-side > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+
+  /* Footer */
+
+  .footer {
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .footer-right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .links > h1 {
+    font-size: 20px;
+  }
+
+  .links > ul {
+    gap: 10px;
+  }
+
+  .links > ul > li {
+    font-size: 16px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .footer-logo {
+    width: 250px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  .menulist {
+    display: flex;
+    flex-direction: row;
+    gap: 34px;
+    list-style: none;
+  }
+  
+  .menulist > li > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+  }
+  
+  .header-sec {
+    background-image: url("../assets/see-flights-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 24%;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 45px;
+    line-height: 125%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+  
+  .sub-heading {
+    color: white;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+    margin: 0px 10%;
+    text-align: center;
+  }
+  
+  .trip-deatils {
+    color: #276968;
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: 500;
+    font-style: normal;
+    padding: 14px;
+    background-color: white;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+  }
+  
+  .input1,
+  .input2,
+  .input3,
+  .input4 {
+    border-left: 2px solid #276968;
+  }
+  
+  .input {
+    border-style: none;
+    outline: none;
+    font-family: "Karla", sans-serif;
+    color: #276968;
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: 500;
+    font-style: normal;
+    padding: 8px;
+  }
+  
+  .btn2 {
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 14px;
+    background-color: #276968;
+    border-radius: 4px;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0px;
+  }
+  
+  .fav {
+    color: #051721;
+    font-size: 16px;
+    font-family: "Karla";
+    font-weight: 500;
+    letter-spacing: 0.08px;
+  }
+  
+  .user-name {
+    color: #051721;
+    font-size: 16px;
+    font-family: "Karla";
+    font-weight: 500;
+  }
+  
+  .user-profile {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .user-profile > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 10px;
+  }
+  
+  /* Section 2 */
+  
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 100px 60px;
+  }
+  
+  .sec2-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .see-all-btn {
+    margin: 10px 0px;
+  }
+  
+  .sec2-sub-heading {
+    color: #276968;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+    padding-bottom: 5px;
+  }
+  
+  .sec2-heading {
+    color: #051721;
+    font-size: 32px;
+    line-height: 125%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+  
+  .btn1 {
+    color: #276968;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 14px 28px;
+    background-color: white;
+    border-radius: 4px;
+    font-family: "Karla", sans-serif;
+    border: 2px solid #276968;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .sec2-card {
+    background-image: url("../assets/paris.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: end;
+    padding: 22px;
+    border-radius: 15px;
+  }
+  
+  .sec2-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+  }
+  
+  .place-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .place-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .place-name {
+    color: var(--neutrals, #fff);
+    font-size: 24px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+  
+  .place-desc {
+    color: var(--neutrals, #fff);
+    font-size: 14px;
+    font-family: "Karla";
+    line-height: 150%;
+  }
+  
+  .place-price {
+    color: var(--neutrals, #fff);
+    font-size: 24px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+  
+  .book-flight-btn {
+    width: 100%;
+  }
+  
+  /* Section 3 */
+  .sec3 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 100px 60px;
+  }
+  .sec3-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .sec3-eft-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 24px;
+    border-radius: 30px;
+    background: #276968;
+    width: 50%;
+  }
+  
+  .sec3-lhs-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sec3-lhs-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .lhs-heading {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+  
+  .price-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .price-btn > span {
+    color: #276968;
+    font-size: 14px;
+    font-family: "Montserrat Alternates";
+  }
+  
+  .lhs-desc {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    font-family: "Karla";
+    line-height: 150%;
+    letter-spacing: 0.07px;
+  }
+  
+  .sec3-right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    gap: 14px;
+  }
+  
+  .sec3-right-side > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  
+  
+
+  /* Footer */
+
+  .footer {
+    background-color: #276968;
+    color: #fafbfc;
+    padding: 90px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+  }
+
+  .footer-right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .links > h1 {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+
+  .links > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .links > ul > li {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Karla";
+    font-weight: 500;
+    list-style: none;
+    opacity: 0.699999988079071;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  .menulist {
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+    list-style: none;
+  }
+  
+  .menulist > li > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+  }
+  
+  .header-sec {
+    background-image: url("../assets/see-flights-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 24%;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 45px;
+    line-height: 125%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+  
+  .sub-heading {
+    color: white;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+    margin: 0px 10%;
+    text-align: center;
+  }
+  
+  .trip-deatils {
+    color: #276968;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    font-style: normal;
+    padding: 14px;
+    background-color: white;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+  }
+  
+  .input1,
+  .input2,
+  .input3,
+  .input4 {
+    border-left: 2px solid #276968;
+  }
+  
+  .input {
+    border-style: none;
+    outline: none;
+    font-family: "Karla", sans-serif;
+    color: #276968;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    font-style: normal;
+    padding: 8px;
+  }
+  
+  .btn2 {
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 14px;
+    background-color: #276968;
+    border-radius: 4px;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .fav {
+    color: #051721;
+    font-size: 16px;
+    font-family: "Karla";
+    font-weight: 500;
+    letter-spacing: 0.08px;
+  }
+  
+  .user-name {
+    color: #051721;
+    font-size: 16px;
+    font-family: "Karla";
+    font-weight: 500;
+  }
+  
+  .user-profile {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .user-profile > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 10px;
+  }
+  
+  /* Section 2 */
+  
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 100px 60px;
+  }
+  
+  .sec2-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .see-all-btn {
+    margin: 10px 0px;
+  }
+  
+  .sec2-sub-heading {
+    color: #276968;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Karla", sans-serif;
+    padding-bottom: 5px;
+  }
+  
+  .sec2-heading {
+    color: #051721;
+    font-size: 32px;
+    line-height: 125%;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Montserrat Alternates", sans-serif;
+  }
+  
+  .btn1 {
+    color: #276968;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 14px 28px;
+    background-color: white;
+    border-radius: 4px;
+    font-family: "Karla", sans-serif;
+    border: 2px solid #276968;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .sec2-card {
+    background-image: url("../assets/paris.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: end;
+    padding: 22px;
+    border-radius: 15px;
+  }
+  
+  .sec2-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 35px;
+  }
+  
+  .place-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .place-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .place-name {
+    color: var(--neutrals, #fff);
+    font-size: 24px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+  
+  .place-desc {
+    color: var(--neutrals, #fff);
+    font-size: 14px;
+    font-family: "Karla";
+    line-height: 150%;
+  }
+  
+  .place-price {
+    color: var(--neutrals, #fff);
+    font-size: 24px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+  
+  .book-flight-btn {
+    width: 100%;
+  }
+  
+  /* Section 3 */
+  .sec3 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 100px 60px;
+  }
+  .sec3-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .sec3-eft-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 24px;
+    border-radius: 30px;
+    background: #276968;
+    width: 50%;
+  }
+  
+  .sec3-lhs-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .sec3-lhs-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .lhs-heading {
+    color: #fff;
+    font-size: 40px;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+  }
+  
+  .price-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .price-btn > span {
+    color: #276968;
+    font-size: 14px;
+    font-family: "Montserrat Alternates";
+  }
+  
+  .lhs-desc {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    font-family: "Karla";
+    line-height: 150%;
+    letter-spacing: 0.07px;
+  }
+  
+  .sec3-right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    gap: 14px;
+  }
+  
+  .sec3-right-side > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  
+  /* Footer */
+  
+  .footer {
+    background-color: #276968;
+    color: #fafbfc;
+    padding: 90px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer-right-side {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .links > h1 {
+    color: #fff;
+    font-size: 20px;
+    font-family: Montserrat Alternates;
+    font-weight: 600;
+  }
+  
+  .links > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .links > ul > li {
+    color: #fff;
+    font-size: 16px;
+    font-family: Karla;
+    font-weight: 500;
+    list-style: none;
+    opacity: 0.699999988079071;
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+  
 }
