@@ -6,6 +6,10 @@
   margin: 0%;
 }
 
+* ul > li {
+  list-style: none;
+}
+
 
 @media screen and (min-width: 360px) {
   .menulist {
@@ -1535,6 +1539,8 @@
     flex-direction: column;
     gap: 16px;
   }
+
+  
 
   .links > ul > li > a{
     color: #fff;
