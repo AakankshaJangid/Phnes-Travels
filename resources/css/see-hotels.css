@@ -32,7 +32,7 @@
 }
 
 .header-sec {
-  background-image: url("../assets/see-flights-bg.png");
+  background-image: url("../assets/see-hotels-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -210,11 +210,7 @@
 }
 
 .sec2-card {
-  background-image: url("../assets/paris.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 500px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -222,6 +218,35 @@
   padding: 22px;
   border-radius: 15px;
 }
+
+.paris , .london{
+  background-image: url("../assets/paris-img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bora-bora , .dubai{
+  background-image: url("../assets/phuket.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lucia , .tahiti{
+  background-image: url("../assets/geo-features-img1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rome , .bali{
+  background-image: url("../assets/geo-feature-img2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 
 .sec2-body {
   display: grid;
@@ -552,7 +577,7 @@
 
   /* Header Section */
   .header-sec {
-    background-image: url("../assets/see-flights-bg.png");
+    background-image: url("../assets/see-hotels-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -702,10 +727,6 @@
   }
 
   .sec2-card {
-    background-image: url("../assets/paris.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -714,6 +735,35 @@
     padding: 16px;
     border-radius: 15px;
   }
+
+  .paris , .london{
+    background-image: url("../assets/paris-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bora-bora , .dubai{
+    background-image: url("../assets/phuket.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .lucia , .tahiti{
+    background-image: url("../assets/geo-features-img1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .rome , .bali{
+    background-image: url("../assets/geo-feature-img2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
 
   .sec2-body {
     display: grid;
@@ -1005,7 +1055,7 @@
 
   /* Header Section */
   .header-sec {
-    background-image: url("../assets/see-flights-bg.png");
+    background-image: url("../assets/see-hotels-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1214,10 +1264,6 @@
   }
 
   .sec2-card {
-    background-image: url("../assets/paris.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -1226,6 +1272,35 @@
     padding: 16px;
     border-radius: 15px;
   }
+
+  .paris , .london{
+    background-image: url("../assets/paris-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bora-bora , .dubai{
+    background-image: url("../assets/phuket.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .lucia , .tahiti{
+    background-image: url("../assets/geo-features-img1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .rome , .bali{
+    background-image: url("../assets/geo-feature-img2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
 
   .sec2-body {
     display: grid;
@@ -1421,7 +1496,7 @@
   }
 
   .header-sec {
-    background-image: url("../assets/see-flights-bg.png");
+    background-image: url("../assets/see-hotels-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1657,10 +1732,6 @@
   }
 
   .sec2-card {
-    background-image: url("../assets/paris.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -1669,6 +1740,35 @@
     padding: 22px;
     border-radius: 15px;
   }
+
+  .paris , .london{
+    background-image: url("../assets/paris-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bora-bora , .dubai{
+    background-image: url("../assets/phuket.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .lucia , .tahiti{
+    background-image: url("../assets/geo-features-img1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .rome , .bali{
+    background-image: url("../assets/geo-feature-img2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
 
   .sec2-body {
     display: grid;
@@ -1869,7 +1969,7 @@
   }
 
   .header-sec {
-    background-image: url("../assets/see-flights-bg.png");
+    background-image: url("../assets/see-hotels-bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2105,17 +2205,41 @@
   }
 
   .sec2-card {
-    background-image: url("../assets/paris.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     gap: 16px;
     justify-content: end;
     padding: 22px;
     border-radius: 15px;
+  }
+
+  .paris , .london{
+    background-image: url("../assets/paris-img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bora-bora , .dubai{
+    background-image: url("../assets/phuket.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .lucia , .tahiti{
+    background-image: url("../assets/geo-features-img1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .rome , .bali{
+    background-image: url("../assets/geo-feature-img2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .sec2-body {
