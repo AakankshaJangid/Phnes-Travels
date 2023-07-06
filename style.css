@@ -841,6 +841,14 @@
     margin: 10px 0px;
   }
 
+  .more-users {
+    padding: 8px;
+    color: #fff;
+    font-size: 8px;
+    width: 10px;
+    height: 10px;
+  }
+
   .sec2-body {
     display: grid;
     grid-template-columns: 1fr 1fr;
