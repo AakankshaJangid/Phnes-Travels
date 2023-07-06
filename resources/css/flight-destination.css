@@ -2092,7 +2092,7 @@
   .footer-right-side {
     display: flex;
     flex-direction: row;
-    gap: 150px;
+    gap: 120px;
   }
   
   .links {
