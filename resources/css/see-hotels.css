@@ -513,10 +513,6 @@
     height: 30px;
   }
 
-  /* .user-name > div > span > i {
-        font-size: 4px;
-      } */
-
   /* Recent Searches */
 
   .recent-searches {
@@ -527,12 +523,7 @@
   }
 
   .recent-searches > h1 {
-    color: #051721;
     font-size: 22px;
-    font-family: "Montserrat Alternates";
-    font-weight: 700;
-    line-height: 125%;
-    letter-spacing: 0.16px;
   }
 
   .recent-searches-container {
@@ -560,27 +551,15 @@
   }
 
   .recent-searches-desc > h4 {
-    color: #051721;
     font-size: 14px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
-    letter-spacing: 0.08px;
   }
 
   .recent-searches-desc > p {
-    color: #051721;
     font-size: 10px;
-    font-family: "Karla";
-    letter-spacing: 0.06px;
-    opacity: 0.75;
   }
 
   /* Header Section */
   .header-sec {
-    background-image: url("../assets/see-hotels-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -600,73 +579,30 @@
   }
 
   .heading {
-    color: white;
     font-size: 25px;
-    line-height: 125%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Montserrat Alternates", sans-serif;
   }
 
   .sub-heading {
-    color: white;
     font-size: 16px;
-    line-height: 150%;
-    font-weight: 400;
-    font-style: normal;
-    font-family: "Karla", sans-serif;
     margin: 0px 10%;
     text-align: center;
   }
 
   .trip-deatils {
-    color: #276968;
     font-size: 12px;
-    line-height: 150%;
-    font-weight: 500;
-    font-style: normal;
     padding: 14px;
-    background-color: white;
-    font-family: "Karla", sans-serif;
     display: flex;
     flex-direction: column;
-    border-radius: 4px;
-  }
-
-  .input1,
-  .input2,
-  .input3,
-  .input4 {
-    border-left: 2px solid #276968;
   }
 
   .input {
-    border-style: none;
-    outline: none;
-    font-family: "Karla", sans-serif;
-    color: #276968;
     font-size: 16px;
-    line-height: 150%;
-    font-weight: 500;
-    font-style: normal;
     padding: 8px;
   }
 
   .btn2 {
-    color: white;
     font-size: 16px;
-    line-height: 19px;
-    font-weight: 500;
-    font-style: normal;
     padding: 14px;
-    background-color: #276968;
-    border-radius: 4px;
-    font-family: "Karla", sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     margin-top: 20px;
   }
 
@@ -690,40 +626,17 @@
   }
 
   .sec2-sub-heading {
-    color: #276968;
     font-size: 12px;
-    line-height: 150%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Karla", sans-serif;
     padding-bottom: 5px;
   }
 
   .sec2-heading {
-    color: #051721;
     font-size: 22px;
-    line-height: 125%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Montserrat Alternates", sans-serif;
   }
 
   .btn1 {
-    color: #276968;
     font-size: 14px;
-    line-height: 19px;
-    font-weight: 500;
-    font-style: normal;
     padding: 8px 14px;
-    background-color: white;
-    border-radius: 4px;
-    font-family: "Karla", sans-serif;
-    border: 2px solid #276968;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
   }
 
   .sec2-card {
@@ -736,33 +649,6 @@
     border-radius: 15px;
   }
 
-  .paris , .london{
-    background-image: url("../assets/paris-img.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .bora-bora , .dubai{
-    background-image: url("../assets/phuket.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .lucia , .tahiti{
-    background-image: url("../assets/geo-features-img1.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .rome , .bali{
-    background-image: url("../assets/geo-feature-img2.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
 
 
   .sec2-body {
@@ -784,24 +670,15 @@
   }
 
   .place-name {
-    color: var(--neutrals, #fff);
     font-size: 18px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .place-desc {
-    color: var(--neutrals, #fff);
     font-size: 12px;
-    font-family: "Karla";
-    line-height: 150%;
   }
 
   .place-price {
-    color: var(--neutrals, #fff);
     font-size: 18px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .book-flight-btn {
@@ -846,10 +723,7 @@
   }
 
   .lhs-heading {
-    color: #fff;
     font-size: 20px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .price-btn {
@@ -859,17 +733,11 @@
   }
 
   .price-btn > span {
-    color: #276968;
     font-size: 12px;
-    font-family: "Montserrat Alternates";
   }
 
   .lhs-desc {
-    color: rgba(255, 255, 255, 0.9);
     font-size: 12px;
-    font-family: "Karla";
-    line-height: 150%;
-    letter-spacing: 0.07px;
   }
 
   .sec3-right-side {
@@ -890,8 +758,6 @@
   /* Footer */
 
   .footer {
-    background-color: #276968;
-    color: #fafbfc;
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
@@ -913,10 +779,7 @@
   }
 
   .links > h1 {
-    color: #fff;
     font-size: 16px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .links > ul {
@@ -1055,10 +918,6 @@
 
   /* Header Section */
   .header-sec {
-    background-image: url("../assets/see-hotels-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -1078,73 +937,30 @@
   }
 
   .heading {
-    color: white;
     font-size: 35px;
-    line-height: 125%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Montserrat Alternates", sans-serif;
   }
 
   .sub-heading {
-    color: white;
     font-size: 18px;
-    line-height: 150%;
-    font-weight: 400;
-    font-style: normal;
-    font-family: "Karla", sans-serif;
-    margin: 0px 10%;
     text-align: center;
   }
 
   .trip-deatils {
-    color: #276968;
     font-size: 14px;
-    line-height: 150%;
-    font-weight: 500;
-    font-style: normal;
     padding: 14px;
-    background-color: white;
-    font-family: "Karla", sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 4px;
   }
 
-  .input1,
-  .input2,
-  .input3,
-  .input4 {
-    border-left: 2px solid #276968;
-  }
-
   .input {
-    border-style: none;
-    outline: none;
-    font-family: "Karla", sans-serif;
-    color: #276968;
     font-size: 18px;
-    line-height: 150%;
-    font-weight: 500;
-    font-style: normal;
     padding: 8px;
   }
 
   .btn2 {
-    color: white;
     font-size: 18px;
-    line-height: 19px;
-    font-weight: 500;
-    font-style: normal;
     padding: 14px;
-    background-color: #276968;
-    border-radius: 4px;
-    font-family: "Karla", sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     margin-top: 20px;
   }
 
@@ -1158,12 +974,7 @@
   }
 
   .recent-searches > h1 {
-    color: #051721;
     font-size: 22px;
-    font-family: "Montserrat Alternates";
-    font-weight: 700;
-    line-height: 125%;
-    letter-spacing: 0.16px;
   }
 
   .recent-searches-container {
@@ -1191,19 +1002,11 @@
   }
 
   .recent-searches-desc > h4 {
-    color: #051721;
     font-size: 14px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
-    letter-spacing: 0.08px;
   }
 
   .recent-searches-desc > p {
-    color: #051721;
     font-size: 10px;
-    font-family: "Karla";
-    letter-spacing: 0.06px;
-    opacity: 0.75;
   }
 
 
@@ -1227,40 +1030,17 @@
   }
 
   .sec2-sub-heading {
-    color: #276968;
     font-size: 14px;
-    line-height: 150%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Karla", sans-serif;
     padding-bottom: 5px;
   }
 
   .sec2-heading {
-    color: #051721;
     font-size: 26px;
-    line-height: 125%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Montserrat Alternates", sans-serif;
   }
 
   .btn1 {
-    color: #276968;
     font-size: 16px;
-    line-height: 19px;
-    font-weight: 500;
-    font-style: normal;
     padding: 8px 14px;
-    background-color: white;
-    border-radius: 4px;
-    font-family: "Karla", sans-serif;
-    border: 2px solid #276968;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
   }
 
   .sec2-card {
@@ -1272,35 +1052,6 @@
     padding: 16px;
     border-radius: 15px;
   }
-
-  .paris , .london{
-    background-image: url("../assets/paris-img.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .bora-bora , .dubai{
-    background-image: url("../assets/phuket.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .lucia , .tahiti{
-    background-image: url("../assets/geo-features-img1.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .rome , .bali{
-    background-image: url("../assets/geo-feature-img2.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
 
   .sec2-body {
     display: grid;
@@ -1321,24 +1072,15 @@
   }
 
   .place-name {
-    color: var(--neutrals, #fff);
     font-size: 20px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .place-desc {
-    color: var(--neutrals, #fff);
     font-size: 12px;
-    font-family: "Karla";
-    line-height: 150%;
   }
 
   .place-price {
-    color: var(--neutrals, #fff);
     font-size: 20px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .book-flight-btn {
@@ -1383,10 +1125,7 @@
   }
 
   .lhs-heading {
-    color: #fff;
     font-size: 24px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .price-btn {
@@ -1396,17 +1135,11 @@
   }
 
   .price-btn > span {
-    color: #276968;
     font-size: 14px;
-    font-family: "Montserrat Alternates";
   }
 
   .lhs-desc {
-    color: rgba(255, 255, 255, 0.9);
     font-size: 14px;
-    font-family: "Karla";
-    line-height: 150%;
-    letter-spacing: 0.07px;
   }
 
   .sec3-right-side {
@@ -1486,20 +1219,10 @@
   }
 
   .menulist > li > a {
-    text-decoration: none;
-    color: #000;
     font-size: 12px;
-    line-height: 19px;
-    font-weight: 500;
-    font-style: normal;
-    font-family: "Karla", sans-serif;
   }
 
   .header-sec {
-    background-image: url("../assets/see-hotels-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -1519,89 +1242,39 @@
   }
 
   .heading {
-    color: white;
     font-size: 45px;
-    line-height: 125%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Montserrat Alternates", sans-serif;
   }
 
   .sub-heading {
-    color: white;
     font-size: 20px;
-    line-height: 150%;
-    font-weight: 400;
-    font-style: normal;
-    font-family: "Karla", sans-serif;
     margin: 0px 10%;
     text-align: center;
   }
 
   .trip-deatils {
-    color: #276968;
     font-size: 12px;
-    line-height: 150%;
-    font-weight: 500;
-    font-style: normal;
     padding: 14px;
-    background-color: white;
-    font-family: "Karla", sans-serif;
     display: flex;
     flex-direction: row;
-    border-radius: 4px;
-  }
-
-  .input1,
-  .input2,
-  .input3,
-  .input4 {
-    border-left: 2px solid #276968;
   }
 
   .input {
-    border-style: none;
-    outline: none;
-    font-family: "Karla", sans-serif;
-    color: #276968;
     font-size: 12px;
-    line-height: 150%;
-    font-weight: 500;
-    font-style: normal;
     padding: 8px;
   }
 
   .btn2 {
-    color: white;
     font-size: 16px;
-    line-height: 19px;
-    font-weight: 500;
-    font-style: normal;
     padding: 14px;
-    background-color: #276968;
-    border-radius: 4px;
-    font-family: "Karla", sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
     margin: 0px;
   }
 
   .fav {
-    color: #051721;
     font-size: 16px;
-    font-family: "Karla";
-    font-weight: 500;
-    letter-spacing: 0.08px;
   }
 
   .user-name {
-    color: #051721;
     font-size: 16px;
-    font-family: "Karla";
-    font-weight: 500;
   }
 
   .user-profile {
@@ -1628,12 +1301,7 @@
 }
 
 .recent-searches > h1 {
-  color: #051721;
   font-size: 32px;
-  font-family: "Montserrat Alternates";
-  font-weight: 700;
-  line-height: 125%;
-  letter-spacing: 0.16px;
 }
 
 .recent-searches-container {
@@ -1660,19 +1328,11 @@
 }
 
 .recent-searches-desc > h4 {
-  color: #051721;
   font-size: 16px;
-  font-family: "Montserrat Alternates";
-  font-weight: 600;
-  letter-spacing: 0.08px;
 }
 
 .recent-searches-desc > p {
-  color: #051721;
   font-size: 12px;
-  font-family: "Karla";
-  letter-spacing: 0.06px;
-  opacity: 0.75;
 }
 
   /* Section 2 */
@@ -1695,40 +1355,17 @@
   }
 
   .sec2-sub-heading {
-    color: #276968;
     font-size: 16px;
-    line-height: 150%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Karla", sans-serif;
     padding-bottom: 5px;
   }
 
   .sec2-heading {
-    color: #051721;
     font-size: 32px;
-    line-height: 125%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Montserrat Alternates", sans-serif;
   }
 
   .btn1 {
-    color: #276968;
     font-size: 16px;
-    line-height: 19px;
-    font-weight: 500;
-    font-style: normal;
     padding: 14px 28px;
-    background-color: white;
-    border-radius: 4px;
-    font-family: "Karla", sans-serif;
-    border: 2px solid #276968;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
   }
 
   .sec2-card {
@@ -1739,34 +1376,6 @@
     justify-content: end;
     padding: 22px;
     border-radius: 15px;
-  }
-
-  .paris , .london{
-    background-image: url("../assets/paris-img.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .bora-bora , .dubai{
-    background-image: url("../assets/phuket.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .lucia , .tahiti{
-    background-image: url("../assets/geo-features-img1.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .rome , .bali{
-    background-image: url("../assets/geo-feature-img2.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 
 
@@ -1789,24 +1398,15 @@
   }
 
   .place-name {
-    color: var(--neutrals, #fff);
     font-size: 24px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .place-desc {
-    color: var(--neutrals, #fff);
     font-size: 14px;
-    font-family: "Karla";
-    line-height: 150%;
   }
 
   .place-price {
-    color: var(--neutrals, #fff);
     font-size: 24px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .book-flight-btn {
@@ -1851,10 +1451,7 @@
   }
 
   .lhs-heading {
-    color: #fff;
     font-size: 40px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .price-btn {
@@ -1864,17 +1461,11 @@
   }
 
   .price-btn > span {
-    color: #276968;
     font-size: 14px;
-    font-family: "Montserrat Alternates";
   }
 
   .lhs-desc {
-    color: rgba(255, 255, 255, 0.9);
     font-size: 14px;
-    font-family: "Karla";
-    line-height: 150%;
-    letter-spacing: 0.07px;
   }
 
   .sec3-right-side {
@@ -1893,8 +1484,6 @@
   /* Footer */
 
   .footer {
-    background-color: #276968;
-    color: #fafbfc;
     padding: 90px 40px;
     display: flex;
     flex-direction: row;
@@ -1916,10 +1505,7 @@
   }
 
   .links > h1 {
-    color: #fff;
     font-size: 20px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .links > ul {
@@ -1929,12 +1515,7 @@
   }
 
   .links > ul > li {
-    color: #fff;
     font-size: 16px;
-    font-family: "Karla";
-    font-weight: 500;
-    list-style: none;
-    opacity: 0.699999988079071;
   }
 
   .icon {
@@ -1959,20 +1540,10 @@
   }
 
   .menulist > li > a {
-    text-decoration: none;
-    color: #000;
     font-size: 16px;
-    line-height: 19px;
-    font-weight: 500;
-    font-style: normal;
-    font-family: "Karla", sans-serif;
   }
 
   .header-sec {
-    background-image: url("../assets/see-hotels-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -1992,88 +1563,38 @@
   }
 
   .heading {
-    color: white;
     font-size: 45px;
-    line-height: 125%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Montserrat Alternates", sans-serif;
   }
 
   .sub-heading {
-    color: white;
     font-size: 20px;
-    line-height: 150%;
-    font-weight: 400;
-    font-style: normal;
-    font-family: "Karla", sans-serif;
     margin: 0px 10%;
     text-align: center;
   }
 
   .trip-deatils {
-    color: #276968;
     font-size: 16px;
-    line-height: 150%;
-    font-weight: 500;
-    font-style: normal;
     padding: 14px;
-    background-color: white;
-    font-family: "Karla", sans-serif;
     display: flex;
     flex-direction: row;
-    border-radius: 4px;
-  }
-
-  .input1,
-  .input2,
-  .input3,
-  .input4 {
-    border-left: 2px solid #276968;
   }
 
   .input {
-    border-style: none;
-    outline: none;
-    font-family: "Karla", sans-serif;
-    color: #276968;
     font-size: 16px;
-    line-height: 150%;
-    font-weight: 500;
-    font-style: normal;
     padding: 8px;
   }
 
   .btn2 {
-    color: white;
     font-size: 16px;
-    line-height: 19px;
-    font-weight: 500;
-    font-style: normal;
     padding: 14px;
-    background-color: #276968;
-    border-radius: 4px;
-    font-family: "Karla", sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
   }
 
   .fav {
-    color: #051721;
     font-size: 16px;
-    font-family: "Karla";
-    font-weight: 500;
-    letter-spacing: 0.08px;
   }
 
   .user-name {
-    color: #051721;
     font-size: 16px;
-    font-family: "Karla";
-    font-weight: 500;
   }
 
   .user-profile {
@@ -2096,16 +1617,11 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  margin: 100px 60px;
+  margin: 50px 60px;
 }
 
 .recent-searches > h1 {
-  color: #051721;
   font-size: 32px;
-  font-family: "Montserrat Alternates";
-  font-weight: 700;
-  line-height: 125%;
-  letter-spacing: 0.16px;
 }
 
 .recent-searches-container {
@@ -2133,19 +1649,11 @@
 }
 
 .recent-searches-desc > h4 {
-  color: #051721;
   font-size: 16px;
-  font-family: "Montserrat Alternates";
-  font-weight: 600;
-  letter-spacing: 0.08px;
 }
 
 .recent-searches-desc > p {
-  color: #051721;
   font-size: 12px;
-  font-family: "Karla";
-  letter-spacing: 0.06px;
-  opacity: 0.75;
 }
 
   /* Section 2 */
@@ -2153,7 +1661,7 @@
   .sec2 {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
     margin: 100px 60px;
   }
 
@@ -2168,44 +1676,21 @@
   }
 
   .sec2-sub-heading {
-    color: #276968;
     font-size: 16px;
-    line-height: 150%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Karla", sans-serif;
     padding-bottom: 5px;
   }
 
   .sec2-heading {
-    color: #051721;
     font-size: 32px;
-    line-height: 125%;
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Montserrat Alternates", sans-serif;
   }
 
   .btn1 {
-    color: #276968;
     font-size: 16px;
-    line-height: 19px;
-    font-weight: 500;
-    font-style: normal;
     padding: 14px 28px;
-    background-color: white;
-    border-radius: 4px;
-    font-family: "Karla", sans-serif;
-    border: 2px solid #276968;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
   }
 
   .sec2-card {
-    height: 400px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -2213,35 +1698,6 @@
     padding: 22px;
     border-radius: 15px;
   }
-
-  .paris , .london{
-    background-image: url("../assets/paris-img.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .bora-bora , .dubai{
-    background-image: url("../assets/phuket.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .lucia , .tahiti{
-    background-image: url("../assets/geo-features-img1.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .rome , .bali{
-    background-image: url("../assets/geo-feature-img2.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
   .sec2-body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -2261,24 +1717,15 @@
   }
 
   .place-name {
-    color: var(--neutrals, #fff);
     font-size: 24px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .place-desc {
-    color: var(--neutrals, #fff);
     font-size: 14px;
-    font-family: "Karla";
-    line-height: 150%;
   }
 
   .place-price {
-    color: var(--neutrals, #fff);
     font-size: 24px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .book-flight-btn {
@@ -2323,10 +1770,7 @@
   }
 
   .lhs-heading {
-    color: #fff;
     font-size: 40px;
-    font-family: "Montserrat Alternates";
-    font-weight: 600;
   }
 
   .price-btn {
@@ -2336,17 +1780,11 @@
   }
 
   .price-btn > span {
-    color: #276968;
     font-size: 14px;
-    font-family: "Montserrat Alternates";
   }
 
   .lhs-desc {
-    color: rgba(255, 255, 255, 0.9);
     font-size: 14px;
-    font-family: "Karla";
-    line-height: 150%;
-    letter-spacing: 0.07px;
   }
 
   .sec3-right-side {
@@ -2365,8 +1803,6 @@
   /* Footer */
 
   .footer {
-    background-color: #276968;
-    color: #fafbfc;
     padding: 90px 80px;
     display: flex;
     flex-direction: row;
@@ -2386,10 +1822,7 @@
   }
 
   .links > h1 {
-    color: #fff;
     font-size: 20px;
-    font-family: Montserrat Alternates;
-    font-weight: 600;
   }
 
   .links > ul {
@@ -2399,12 +1832,7 @@
   }
 
   .links > ul > li {
-    color: #fff;
     font-size: 16px;
-    font-family: Karla;
-    font-weight: 500;
-    list-style: none;
-    opacity: 0.699999988079071;
   }
 
   .icon {
